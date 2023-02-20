@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/portfolioexercise.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/62a38ec1a6.js" crossorigin="anonymous"></script>
+
+    <title>Coding&nbsp;Jennifer Contact</title>
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li>
+                        <h1 class="navbar-title a"> <a href="index.html">
+                                <span class="fas fa-code" aria-hidden="true"></span>
+                                <span>Coding Jennifer</span>
+                            </a> </h1>
+                    </li>
+
+
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+
+                    <li><a href="https://www.linkedin.com/in/jennifer-valentina-carpanese-2228b238/"><span
+                                class="fab fa-linkedin" aria-hidden="true"></span>
+                            <span class="sr-only">LinkedIn</span></a></li>
+                    <li><a href="https://github.com/coding-jenny"><span class="fab fa-github-square"
+                                aria-hidden="true"></span>
+                            <span class="sr-only">Github</span></a></li>
+
+                </ul>
+
+            </nav>
+        </header>
+        <div class="gradient"></div>
+        <main>
+            <section class="contact-box">
+
+                <div>
+                    <h2 class="contact-title">Contact me</h2>
+
+                    <img class="photo" src="assets/img/dogandpc.avif"
+                        alt="A cartoon image of a funny Shiba dog on a laptop ">
+
+                    <p class="contact-text"> I'm always interested in hearing about new working&learning opportunities.
+                        <br>
+                        Don't hesitate to contact me!
+                    </p>
+                    <p class="contact-email"> <a class="button" href="mailto:valejenni@gmail.com">Email me </a></p>
+                </div>
+
+                <form action="https://formspree.io/mail@example.com" method="post" class="contact-form">
+                    <div class="input-group">
+                        <label for="name">Enter your name: </label>
+                        <input type="text" name="name" placeholder="Your Name" id="name" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Enter your email: </label>
+                        <input type="email" name="email" placeholder="example@gmail.com" id="email" onchange="verify()"
+                            required>
+                    </div>
+                    <div class="input-group">
+                        <label for="repeat-email">Repeat your email: </label>
+                        <input type="email" name="email" id="repeat-email" onchange="verify()" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Message: </label>
+                        <textarea name="textarea" placeholder="Type here..." cols="50" rows="5" id="message"
+                            required></textarea>
+                    </div>
+                    <div class="input-group">
+                        <input type="submit" value="submit!">
+                    </div>
+                </form>
+
+            </section>
+        </main>
+        <div class="gradient"></div>
+    </div>
+    <footer class="footer-box">
+        <h2 class="footer-title"> Coding Jennifer &middot; FrontEnd</h2>
+
+        <ul class="footer-list">
+
+            <li><a href="https://www.linkedin.com/in/jennifer-valentina-carpanese-2228b238/"><span
+                        class="fab fa-linkedin" aria-hidden="true"></span>
+                    <span class="sr-only">LinkedIn</span></a></li>
+
+            <li><a href="https://github.com/coding-jenny"><span class="fab fa-github-square" aria-hidden="true"></span>
+                    <span class="sr-only">Github</span></a></li>
+
+            <li><a href="mailto:valejenni@gmail.com"><span class="fa-solid fa-envelope" aria-hidden="true"></span>
+                    <span class="sr-only">Mail</span></a></li>
+
+
+
+
+        </ul>
+
+        <p> <small> &copy; 2023 Coding Jenny. All rights reserved </small></p>
+
+    </footer>
+
+    <script src="assets/js/verifyemail.js"></script>
+</body>
+
+</html>
