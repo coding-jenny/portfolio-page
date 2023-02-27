@@ -1,3 +1,5 @@
+// Verify Mail
+
 let email = document.getElementById('email');
 let repeatEmail = document.getElementById('repeat-email');
 
@@ -13,3 +15,22 @@ function verify() {
         repeatEmail.setCustomValidity('');
     }
 }
+
+// Animation
+
+document.querySelector("#shiba").addEventListener(
+    "mouseover",
+    (event) => {
+        // animate target
+        event.target.classList.add("animate__animated", "animate__wobble");
+
+    },
+);
+
+document.querySelector("#shiba").addEventListener(
+    "mouseout",
+    (event) => {
+        // de-animate target
+        event.target.classList.remove("animate__animated", "animate__wobble");
+    },
+);

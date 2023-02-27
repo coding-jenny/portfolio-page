@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/62a38ec1a6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <title>Coding&nbsp;Jennifer Contact</title>
 </head>
@@ -51,17 +52,18 @@
                 <div>
                     <h2 class="contact-title">Contact me</h2>
 
-                    <img class="photo" src="assets/img/dogandpc.avif"
-                        alt="A cartoon image of a funny Shiba dog on a laptop ">
+                    <a href="#form"> <img id="shiba" class="photo" src="assets/img/dogandpc.avif"
+                            alt="A cartoon image of a funny Shiba dog on a laptop "></a>
 
-                    <p class="contact-text"> I'm always interested in hearing about new working&learning opportunities.
+                    <p class="contact-text"> I'm always interested in hearing about new working&learning
+                        opportunities.
                         <br>
                         Don't hesitate to contact me!
                     </p>
-                    <p class="contact-email"> <a class="button" href="mailto:valejenni@gmail.com">Email me </a></p>
+
                 </div>
 
-                <form action="https://formspree.io/mail@example.com" method="post" class="contact-form">
+                <form id="form" action="https://formspree.io/valejenni@gmail.com" method="post" class="contact-form">
                     <div class="input-group">
                         <label for="name">Enter your name: </label>
                         <input type="text" name="name" placeholder="Your Name" id="name" required>
@@ -90,7 +92,8 @@
         <div class="gradient"></div>
     </div>
     <footer class="footer-box">
-        <h2 class="footer-title"> Coding Jennifer &middot; FrontEnd</h2>
+        <h2 class="footer-title"> Coding Jenny &middot; UI/UX Developer & Accessibility Specialist</h2>
+
 
         <ul class="footer-list">
 
@@ -113,7 +116,7 @@
 
     </footer>
 
-    <script src="assets/js/verifyemail.js"></script>
+    <script src="assets/js/contact.js"></script>
 </body>
 
 </html>

@@ -174,17 +174,25 @@ p {
 }
 
 .tecnologies-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: right;
-    gap: 2rem;
+
+
+
     font-family: var(--mono);
 }
+
+.tecnologies-list dt {
+    text-align: right;
+    font-size: 20px;
+}
+
+.tecnologies-list dd {
+    font-size: 18px;
+    text-align: right;
+    margin-inline-start: 0;
+    margin: 0.5rem 0 2rem 0;
+
+}
+
 
 
 img {
@@ -253,6 +261,8 @@ img.photo.photo {
     color: var(--light_celeste);
 
 }
+
+
 
 form {
     max-width: 450px;
