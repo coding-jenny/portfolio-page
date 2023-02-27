@@ -187,17 +187,17 @@ p {
     text-align: left;
 }
 
-.project .tecnologies-certifications-list,
-.tecnologies-list {
+.project .technologies-certifications-list,
+.technologies-list {
     font-family: var(--mono);
 }
 
-.tecnologies-certifications-list dt {
+.technologies-certifications-list dt {
     text-align: right;
     font-size: 20px;
 }
 
-.tecnologies-certifications-list dd {
+.technologies-certifications-list dd {
     font-size: 18px;
     text-align: right;
     margin-inline-start: 0;
@@ -205,7 +205,7 @@ p {
 
 }
 
-.tecnologies-list {
+.technologies-list {
     list-style-type: none;
     font-size: 18px;
 }
@@ -429,7 +429,7 @@ footer ul {
         text-align: right;
     }
 
-    .tecnologies-list {
+    .technologies-list {
         justify-content: flex-end;
     }
 
@@ -451,7 +451,7 @@ footer ul {
         grid-row: 1/2;
     }
 
-    .reverse-article .tecnologies-list {
+    .reverse-article .technologies-list {
         justify-content: flex-start;
     }
 }
